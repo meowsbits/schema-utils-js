@@ -82,7 +82,7 @@
 			<section class="tsd-panel">
 				<h3>Implements</h3>
 				<ul class="tsd-hierarchy">
-					<li><span class="tsd-signature-type">Error</span></li>
+					<li><a href="../interfaces/error.html" class="tsd-signature-type">Error</a></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
@@ -114,13 +114,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Parameter<wbr>Validation<wbr>Error<span class="tsd-signature-symbol">(</span>paramIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, expectedSchema<span class="tsd-signature-symbol">: </span><a href="../interfaces/schema.html" class="tsd-signature-type">Schema</a>, receievedParam<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, errors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ErrorObject</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="parametervalidationerror.html" class="tsd-signature-type">ParameterValidationError</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Parameter<wbr>Validation<wbr>Error<span class="tsd-signature-symbol">(</span>paramIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, expectedSchema<span class="tsd-signature-symbol">: </span><a href="../interfaces/jsonschema.html" class="tsd-signature-type">JSONSchema</a>, receievedParam<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, errors<span class="tsd-signature-symbol">: </span><a href="" class="tsd-signature-type">ErrorObject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="parametervalidationerror.html" class="tsd-signature-type">ParameterValidationError</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L9">src/method-call-validator/parameter-validation-error.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L9">src/method-call-validator/parameter-validation-error.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -137,7 +137,7 @@
 									</div>
 								</li>
 								<li>
-									<h5>expectedSchema: <a href="../interfaces/schema.html" class="tsd-signature-type">Schema</a></h5>
+									<h5>expectedSchema: <a href="../interfaces/jsonschema.html" class="tsd-signature-type">JSONSchema</a></h5>
 									<div class="tsd-comment tsd-typography">
 										<div class="lead">
 											<p>The expected JSON Schema for the passed in value.</p>
@@ -153,7 +153,7 @@
 									</div>
 								</li>
 								<li>
-									<h5>errors: <span class="tsd-signature-type">ErrorObject</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>errors: <a href="" class="tsd-signature-type">ErrorObject</a><span class="tsd-signature-symbol">[]</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<div class="lead">
 											<p>The errors recieved by ajv</p>
@@ -171,10 +171,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="expectedschema" class="tsd-anchor"></a>
 					<h3>expected<wbr>Schema</h3>
-					<div class="tsd-signature tsd-kind-icon">expected<wbr>Schema<span class="tsd-signature-symbol">:</span> <a href="../interfaces/schema.html" class="tsd-signature-type">Schema</a></div>
+					<div class="tsd-signature tsd-kind-icon">expected<wbr>Schema<span class="tsd-signature-symbol">:</span> <a href="../interfaces/jsonschema.html" class="tsd-signature-type">JSONSchema</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L20">src/method-call-validator/parameter-validation-error.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L20">src/method-call-validator/parameter-validation-error.ts:20</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -188,18 +188,20 @@
 					<h3>message</h3>
 					<div class="tsd-signature tsd-kind-icon">message<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/error.html">Error</a>.<a href="../interfaces/error.html#message">message</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L9">src/method-call-validator/parameter-validation-error.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L9">src/method-call-validator/parameter-validation-error.ts:9</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="name" class="tsd-anchor"></a>
 					<h3>name</h3>
-					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;ParameterValidationError&quot;</span></div>
+					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;ParameterValidationError&quot;</span></div>
 					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/error.html">Error</a>.<a href="../interfaces/error.html#name">name</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L8">src/method-call-validator/parameter-validation-error.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L8">src/method-call-validator/parameter-validation-error.ts:8</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -209,7 +211,7 @@
 					<div class="tsd-signature tsd-kind-icon">param<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L19">src/method-call-validator/parameter-validation-error.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L19">src/method-call-validator/parameter-validation-error.ts:19</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -225,7 +227,7 @@
 					<div class="tsd-signature tsd-kind-icon">receieved<wbr>Param<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/890cbd6/src/method-call-validator/parameter-validation-error.ts#L21">src/method-call-validator/parameter-validation-error.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/open-rpc/schema-utils-js/blob/bfc5647/src/method-call-validator/parameter-validation-error.ts#L21">src/method-call-validator/parameter-validation-error.ts:21</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">

@@ -64,11 +64,21 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Provides information about files and allows JavaScript in a web page to access their content.</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="tsd-signature-type">BaseNode</span>
+						<a href="blob.html" class="tsd-signature-type">Blob</a>
+					</li>
+					<li>
+						<a href="basenode.html" class="tsd-signature-type">BaseNode</a>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">File</span>
@@ -84,16 +94,26 @@
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#blob" class="tsd-kind-icon">Blob</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#comments" class="tsd-kind-icon">comments</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#end" class="tsd-kind-icon">end</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#innercomments" class="tsd-kind-icon">inner<wbr>Comments</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#lastmodified" class="tsd-kind-icon">last<wbr>Modified</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#leadingcomments" class="tsd-kind-icon">leading<wbr>Comments</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#loc" class="tsd-kind-icon">loc</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#program" class="tsd-kind-icon">program</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#size" class="tsd-kind-icon">size</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#start" class="tsd-kind-icon">start</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="file.html#tokens" class="tsd-kind-icon">tokens</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#trailingcomments" class="tsd-kind-icon">trailing<wbr>Comments</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-external"><a href="file.html#type" class="tsd-kind-icon">type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited tsd-is-external"><a href="file.html#type" class="tsd-kind-icon">type</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-inherited tsd-is-external">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="file.html#slice" class="tsd-kind-icon">slice</a></li>
 							</ul>
 						</section>
 					</div>
@@ -101,6 +121,49 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+					<a name="blob" class="tsd-anchor"></a>
+					<h3>Blob</h3>
+					<div class="tsd-signature tsd-kind-icon">Blob<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>constructor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>prototype<span class="tsd-signature-symbol">: </span><a href="blob.html" class="tsd-signature-type">Blob</a><span class="tsd-signature-symbol"> }</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:2525</li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5>constructor<span class="tsd-signature-symbol">: </span>function</h5>
+								<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-type-literal tsd-is-external">
+									<li class="tsd-signature tsd-kind-icon">new __type<span class="tsd-signature-symbol">(</span>blobParts<span class="tsd-signature-symbol">?: </span><a href="../globals.html#blobpart" class="tsd-signature-type">BlobPart</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="blobpropertybag.html" class="tsd-signature-type">BlobPropertyBag</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="blob.html" class="tsd-signature-type">Blob</a></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<aside class="tsd-sources">
+											<ul>
+												<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:2526</li>
+											</ul>
+										</aside>
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> blobParts: <a href="../globals.html#blobpart" class="tsd-signature-type">BlobPart</a><span class="tsd-signature-symbol">[]</span></h5>
+											</li>
+											<li>
+												<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="blobpropertybag.html" class="tsd-signature-type">BlobPropertyBag</a></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <a href="blob.html" class="tsd-signature-type">Blob</a></h4>
+									</li>
+								</ul>
+							</li>
+							<li class="tsd-parameter">
+								<h5>prototype<span class="tsd-signature-symbol">: </span><a href="blob.html" class="tsd-signature-type">Blob</a></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="comments" class="tsd-anchor"></a>
 					<h3>comments</h3>
@@ -116,7 +179,7 @@
 					<h3>end</h3>
 					<div class="tsd-signature tsd-kind-icon">end<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.end</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#end">end</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:39</li>
 						</ul>
@@ -125,20 +188,30 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="innercomments" class="tsd-anchor"></a>
 					<h3>inner<wbr>Comments</h3>
-					<div class="tsd-signature tsd-kind-icon">inner<wbr>Comments<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#comment" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<div class="tsd-signature tsd-kind-icon">inner<wbr>Comments<span class="tsd-signature-symbol">:</span> <a href="readonlyarray.html" class="tsd-signature-type">ReadonlyArray</a><span class="tsd-signature-symbol">&lt;</span><a href="comment.html" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.innerComments</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#innercomments">innerComments</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:36</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+					<a name="lastmodified" class="tsd-anchor"></a>
+					<h3>last<wbr>Modified</h3>
+					<div class="tsd-signature tsd-kind-icon">last<wbr>Modified<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5569</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="leadingcomments" class="tsd-anchor"></a>
 					<h3>leading<wbr>Comments</h3>
-					<div class="tsd-signature tsd-kind-icon">leading<wbr>Comments<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#comment" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<div class="tsd-signature tsd-kind-icon">leading<wbr>Comments<span class="tsd-signature-symbol">:</span> <a href="readonlyarray.html" class="tsd-signature-type">ReadonlyArray</a><span class="tsd-signature-symbol">&lt;</span><a href="comment.html" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.leadingComments</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#leadingcomments">leadingComments</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:35</li>
 						</ul>
@@ -149,9 +222,19 @@
 					<h3>loc</h3>
 					<div class="tsd-signature tsd-kind-icon">loc<span class="tsd-signature-symbol">:</span> <a href="sourcelocation.html" class="tsd-signature-type">SourceLocation</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.loc</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#loc">loc</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:40</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+					<a name="name" class="tsd-anchor"></a>
+					<h3>name</h3>
+					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5570</li>
 						</ul>
 					</aside>
 				</section>
@@ -166,11 +249,22 @@
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+					<a name="size" class="tsd-anchor"></a>
+					<h3>size</h3>
+					<div class="tsd-signature tsd-kind-icon">size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="blob.html">Blob</a>.<a href="blob.html#size">size</a></p>
+						<ul>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:2520</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="start" class="tsd-anchor"></a>
 					<h3>start</h3>
 					<div class="tsd-signature tsd-kind-icon">start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.start</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#start">start</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:38</li>
 						</ul>
@@ -189,24 +283,59 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="trailingcomments" class="tsd-anchor"></a>
 					<h3>trailing<wbr>Comments</h3>
-					<div class="tsd-signature tsd-kind-icon">trailing<wbr>Comments<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#comment" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<div class="tsd-signature tsd-kind-icon">trailing<wbr>Comments<span class="tsd-signature-symbol">:</span> <a href="readonlyarray.html" class="tsd-signature-type">ReadonlyArray</a><span class="tsd-signature-symbol">&lt;</span><a href="comment.html" class="tsd-signature-type">Comment</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from BaseNode.trailingComments</p>
+						<p>Inherited from <a href="basenode.html">BaseNode</a>.<a href="basenode.html#trailingcomments">trailingComments</a></p>
 						<ul>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:37</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited tsd-is-external">
 					<a name="type" class="tsd-anchor"></a>
 					<h3>type</h3>
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"File"</span></div>
 					<aside class="tsd-sources">
-						<p>Overrides BaseNode.type</p>
+						<p>Inherited from <a href="blob.html">Blob</a>.<a href="blob.html#type">type</a></p>
+						<p>Overrides <a href="basenode.html">BaseNode</a>.<a href="basenode.html#type">type</a></p>
 						<ul>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:2521</li>
 							<li>Defined in node_modules/@babel/types/lib/index.d.ts:138</li>
 						</ul>
 					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited tsd-is-external">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+					<a name="slice" class="tsd-anchor"></a>
+					<h3>slice</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">slice<span class="tsd-signature-symbol">(</span>start<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, end<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, contentType<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="blob.html" class="tsd-signature-type">Blob</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="blob.html">Blob</a>.<a href="blob.html#slice">slice</a></p>
+								<ul>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:2522</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> start: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> end: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> contentType: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="blob.html" class="tsd-signature-type">Blob</a></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -226,6 +355,9 @@
 						<a href="file.html" class="tsd-kind-icon">File</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+								<a href="file.html#blob" class="tsd-kind-icon">Blob</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 								<a href="file.html#comments" class="tsd-kind-icon">comments</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
@@ -234,6 +366,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="file.html#innercomments" class="tsd-kind-icon">inner<wbr>Comments</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+								<a href="file.html#lastmodified" class="tsd-kind-icon">last<wbr>Modified</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="file.html#leadingcomments" class="tsd-kind-icon">leading<wbr>Comments</a>
 							</li>
@@ -241,7 +376,13 @@
 								<a href="file.html#loc" class="tsd-kind-icon">loc</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+								<a href="file.html#name" class="tsd-kind-icon">name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 								<a href="file.html#program" class="tsd-kind-icon">program</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+								<a href="file.html#size" class="tsd-kind-icon">size</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="file.html#start" class="tsd-kind-icon">start</a>
@@ -252,8 +393,11 @@
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="file.html#trailingcomments" class="tsd-kind-icon">trailing<wbr>Comments</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-external">
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited tsd-is-external">
 								<a href="file.html#type" class="tsd-kind-icon">type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+								<a href="file.html#slice" class="tsd-kind-icon">slice</a>
 							</li>
 						</ul>
 					</li>
