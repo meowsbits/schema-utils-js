@@ -129,7 +129,7 @@
 					<div class="tsd-signature tsd-kind-icon">CLOSED<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18396</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18474</li>
 						</ul>
 					</aside>
 				</section>
@@ -139,7 +139,7 @@
 					<div class="tsd-signature tsd-kind-icon">CLOSING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18397</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18475</li>
 						</ul>
 					</aside>
 				</section>
@@ -149,7 +149,7 @@
 					<div class="tsd-signature tsd-kind-icon">CONNECTING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18398</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18476</li>
 						</ul>
 					</aside>
 				</section>
@@ -159,7 +159,7 @@
 					<div class="tsd-signature tsd-kind-icon">Event<wbr>Target<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>constructor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>prototype<span class="tsd-signature-symbol">: </span><a href="abortsignal.html#eventtarget" class="tsd-signature-type">EventTarget</a><span class="tsd-signature-symbol"> }</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5533</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5586</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -174,7 +174,7 @@
 									<li class="tsd-description">
 										<aside class="tsd-sources">
 											<ul>
-												<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5534</li>
+												<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5587</li>
 											</ul>
 										</aside>
 										<h4 class="tsd-returns-title">Returns <a href="abortsignal.html#eventtarget" class="tsd-signature-type">EventTarget</a></h4>
@@ -193,7 +193,7 @@
 					<div class="tsd-signature tsd-kind-icon">OPEN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18399</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18477</li>
 						</ul>
 					</aside>
 				</section>
@@ -203,9 +203,15 @@
 					<div class="tsd-signature tsd-kind-icon">binary<wbr>Type<span class="tsd-signature-symbol">:</span> <a href="../globals.html#binarytype" class="tsd-signature-type">BinaryType</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18384</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18439</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns a string that indicates how binary data from the WebSocket object is exposed to scripts:</p>
+						</div>
+						<p>Can be set, to change how binary data is returned. The default is &quot;blob&quot;.</p>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="bufferedamount" class="tsd-anchor"></a>
@@ -213,9 +219,15 @@
 					<div class="tsd-signature tsd-kind-icon">buffered<wbr>Amount<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18385</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18445</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the number of bytes of application data (UTF-8 text and binary data) that have been queued using send() but not yet been transmitted to the network.</p>
+						</div>
+						<p>If the WebSocket connection is closed, this attribute&#39;s value will only increase with each call to the send() method. (The number does not reset to zero once the connection closes.)</p>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="extensions" class="tsd-anchor"></a>
@@ -223,9 +235,14 @@
 					<div class="tsd-signature tsd-kind-icon">extensions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18386</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18449</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the extensions selected by the server, if any.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="onclose" class="tsd-anchor"></a>
@@ -233,7 +250,7 @@
 					<div class="tsd-signature tsd-kind-icon">onclose<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><a href="closeevent.html" class="tsd-signature-type">CloseEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18387</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18450</li>
 						</ul>
 					</aside>
 				</section>
@@ -243,7 +260,7 @@
 					<div class="tsd-signature tsd-kind-icon">onerror<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><a href="animationevent.html#event" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18388</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18451</li>
 						</ul>
 					</aside>
 				</section>
@@ -253,7 +270,7 @@
 					<div class="tsd-signature tsd-kind-icon">onmessage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><a href="messageevent.html" class="tsd-signature-type">MessageEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18389</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18452</li>
 						</ul>
 					</aside>
 				</section>
@@ -263,7 +280,7 @@
 					<div class="tsd-signature tsd-kind-icon">onopen<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><a href="animationevent.html#event" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18390</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18453</li>
 						</ul>
 					</aside>
 				</section>
@@ -273,9 +290,14 @@
 					<div class="tsd-signature tsd-kind-icon">protocol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18391</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18457</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the subprotocol selected by the server, if any. It can be used in conjunction with the array form of the constructor&#39;s second argument to perform subprotocol negotiation.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="readystate" class="tsd-anchor"></a>
@@ -283,9 +305,14 @@
 					<div class="tsd-signature tsd-kind-icon">ready<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18392</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18461</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the state of the WebSocket object&#39;s connection. It can have the values described below.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="url" class="tsd-anchor"></a>
@@ -293,9 +320,14 @@
 					<div class="tsd-signature tsd-kind-icon">url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18393</li>
+							<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18465</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the URL that was used to establish the WebSocket connection.</p>
+						</div>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
@@ -312,7 +344,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="analysernode.html">AnalyserNode</a>.<a href="analysernode.html#addeventlistener">addEventListener</a></p>
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18400</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18478</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -329,7 +361,7 @@
 								<li>
 									<h5>listener: <span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">WebSocketEventMap</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span></h5>
 									<ul class="tsd-parameters">
-										<li class="tsd-parameter-siganture">
+										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
 												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">WebSocketEventMap</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 											</ul>
@@ -360,7 +392,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="analysernode.html">AnalyserNode</a>.<a href="analysernode.html#addeventlistener">addEventListener</a></p>
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18401</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18479</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -389,9 +421,14 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18394</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18469</li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Closes the WebSocket connection, optionally using code as the the WebSocket connection close code and reason as the the WebSocket connection close reason.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -416,7 +453,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="abortsignal.html">AbortSignal</a>.<a href="abortsignal.html#dispatchevent">dispatchEvent</a></p>
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5526</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:5579</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -446,7 +483,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="analysernode.html">AnalyserNode</a>.<a href="analysernode.html#removeeventlistener">removeEventListener</a></p>
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18402</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18480</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -463,7 +500,7 @@
 								<li>
 									<h5>listener: <span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">WebSocketEventMap</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">any</span></h5>
 									<ul class="tsd-parameters">
-										<li class="tsd-parameter-siganture">
+										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
 												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>this<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">WebSocket</a>, ev<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">WebSocketEventMap</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 											</ul>
@@ -494,7 +531,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="analysernode.html">AnalyserNode</a>.<a href="analysernode.html#removeeventlistener">removeEventListener</a></p>
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18403</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18481</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -523,9 +560,14 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18395</li>
+									<li>Defined in node_modules/typescript/lib/lib.dom.d.ts:18473</li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Transmits data using the WebSocket connection. data can be a string, a Blob, an ArrayBuffer, or an ArrayBufferView.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -627,57 +669,12 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
-				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
-				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
-				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
-				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
-				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
-				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
-				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
-				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 		</div>
 	</div>
